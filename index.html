@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mundo Deportivo</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Mundo Deportivo</h1>
+        <nav>
+            <ul>
+                <li><a href="#articulo1">Artículo 1</a></li>
+                <li><a href="#articulo2">Artículo 2</a></li>
+                <li><a href="#factores">Factores</a></li>
+            </ul>
+        </nav>
+    </header>
+        <button id="colorButton" class="color-toggle" aria-label="Alternar fondo"> 
+            <span id="colorIcon">🌞</span>
+        </button>
+    <main>
+        <section>
+            <article id="articulo1">
+                <h2>
+                    El impacto de las apuestas deportivas en los adolescentes
+                    <button class="toggle-article" data-target="articulo1-content">⬇</button>
+                </h2>
+                <div id="articulo1-content">
+                    <p>En los últimos años, las apuestas deportivas han ganado popularidad entre los adolescentes en Argentina. 
+                    La facilidad de acceso a plataformas en línea y la promoción constante en eventos deportivos han generado 
+                    preocupación entre padres y educadores. Muchos jóvenes ven las apuestas como una forma rápida de ganar dinero, 
+                    sin considerar los riesgos asociados, como la adicción y las pérdidas económicas.</p>
+                </div>
+            </article>
+            <article id="articulo2">
+                <h2>
+                    Regulación y Educación: claves para proteger a los jóvenes
+                    <button class="toggle-article" data-target="articulo2-content">⬇</button>
+                </h2>
+                <div id="articulo2-content">
+                    <p>Expertos en salud mental y legisladores han señalado la necesidad de regular las plataformas de apuestas 
+                    deportivas y educar a los adolescentes sobre los riesgos. En Argentina, algunas provincias ya han implementado 
+                    restricciones, pero aún queda mucho por hacer. La educación en las escuelas y campañas de concienciación son 
+                    fundamentales para prevenir que los jóvenes caigan en prácticas de apuestas problemáticas.</p>
+                </div>
+            </article>
+        </section>
+        <section id="factores">
+                <h1>Factores Clave en el Impacto de las Apuestas Deportivas en los Adolescentes</h1>
+                <p>Las apuestas deportivas han generado preocupación en la sociedad argentina, especialmente en lo que respecta a su impacto en los jóvenes. 
+                A continuación, se presentan los factores clave que influyen en esta problemática y las medidas necesarias para abordarla.</p>
+                <div class="content-wrapper">
+                <ul>
+                    <li>Acceso fácil a plataformas de apuestas en línea.</li>
+                    <li>Publicidad dirigida en eventos deportivos.</li>
+                    <li>Falta de regulación estricta en algunas provincias.</li>
+                    <li>Impacto psicológico y riesgo de adicción.</li>
+                    <li>Importancia de la educación y concienciación.</li>
+                </ul>
+                <div class="image-container">
+                    <img src="assets/image.jpg" alt="Ludopatia">
+                    <p>La imagen representa el impacto de las apuestas deportivas en los adolescentes.</p>
+                </div>
+        </section>
+        <section>
+            <div id="counterSection">
+                <h3>¿Qué puntaje le das a la nota?</h3>
+                <p><span id="counter">0</span></p>
+                <button id="incrementButton" class="btn">+</button>
+                <button id="decrementButton" class="btn">-</button>
+            </div>
+            <div id="feedbackSection">
+                <h3>¿Qué te pareció la nota periodística?</h3>
+                <textarea id="feedback" rows="4" placeholder="Escribe tu opinión aquí..."></textarea>
+                <button id="submitFeedback" class="btn">Enviar Opinión</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Mundo deportivo. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
